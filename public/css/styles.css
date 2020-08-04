@@ -1,0 +1,180 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+input {
+    width: 375px;
+    height: 20px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: transparent;
+    color:#333333;
+    border-color: #333333;
+}
+
+.button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #F6F6f6;
+    color: #333333;
+    padding: 8px 16px;
+    font-size: 16px;
+    min-width: 150px;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button:hover {
+    background: transparent;
+    color: rgb(160, 160, 160);
+    border-color: #333333;
+}
+
+button:focus {
+    outline-style: none;
+    outline-width: 0px !important;
+    outline-color: none !important;
+}
+  
+
+
+.portrait {
+    width: 250px;;
+}
+
+.users {
+    -webkit-box-shadow:
+    inset 0 0 2px rgba(0,0,0,.8),
+    inset 0 2px 0 rgba(255,255,255,.5),
+    inset 0 -7px 0 rgba(0,0,0,.6),
+    inset 0 -9px 0 rgba(255,255,255,.3);
+    -moz-box-shadow:
+    inset 0 0 2px rgba(0,0,0,.8),
+    inset 0 2px 0 rgba(255,255,255,.5),
+    inset 0 -7px 0 rgba(0,0,0,.6),
+    inset 0 -9px 0 rgba(255,255,255,.3);
+    box-shadow: inset 0 0 2px rgba(0,0,0,.8),
+    inset 0 2px 0 rgba(255,255,255,.5),
+    inset 0 -7px 0 rgba(0,0,0,.6),
+    inset 0 -9px 0 rgba(255,255,255,.3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+}
+
+.information {
+    text-align: left;
+    color: #333333;
+    font-family: arial;
+}
+
+#note {
+    color: #333333;
+    font-family: arial;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    text-indent: 1.5em;
+}
+
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+h2.funny-title{
+    border-top:5px solid #E0DBDE;
+    border-bottom:5px solid #E0DBDE;
+    font-size:70px;text-align:center;
+    margin-top:40px;margin-bottom:5px;
+    text-transform:uppercase;
+    font-family:'Russo One',sans-serif;
+    font-weight:900;
+    letter-spacing:8px
+}
+@-webkit-keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+@-moz-keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+@keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+.section-title{
+    -webkit-animation-play-state:running;
+    -moz-animation-play-state:running;
+    animation-play-state:running;
+    color:transparent;
+    background:url(/img/logo.png) no-repeat #ECE7EA;
+    background-size:cover;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-animation:move-background 20s infinite linear alternate;
+    -moz-animation:move-background 20s infinite linear alternate;
+    animation:move-background 20s infinite linear alternate
+}
+
+
+
+
